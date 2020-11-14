@@ -1,0 +1,20 @@
+package jdc_revision;
+
+public class Result_Switch {
+	// static to static void to void so name khw pee use lox ya dl
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		checkgrade(91);
+	}
+	// void is no return method 
+	static void checkgrade(int mark) {
+		switch(mark) {
+		case 100:
+		case 90:
+			System.out.println("Grade A");
+			break;
+		default:
+			System.out.println("Please enter the correct result.");
+		}
+	}
+}

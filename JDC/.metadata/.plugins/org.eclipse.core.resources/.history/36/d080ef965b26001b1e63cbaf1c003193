@@ -1,0 +1,21 @@
+package jdc_revision;
+
+import java.util.Scanner;
+
+public class Even_odd {
+
+	public static void main(String[] args) {
+		int[] number = new int[5];
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter numbers: ");
+		int input = Integer.parseInt(sc.nextLine());
+	}
+	static void EvenOdd(int[]num,String text) {
+		for(int i=0; i<num.length;	i++	) {
+			if(num[i]%2==0) {
+				System.out.printf("%d is an even number.%n"+num[i]);
+			}else
+				System.out.printf("%d is an odd number.%n"+num[i]);
+		}
+	}
+}

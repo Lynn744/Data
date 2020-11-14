@@ -1,0 +1,29 @@
+package jdc_revision;
+
+import java.util.Scanner;
+
+public class PrimeRangeCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		System.out.print("Start number to search prime:");
+		int start = Integer.parseInt(input.nextLine());
+		System.out.print("End number to search prime:");
+		int range = 0;
+		int end = Integer.parseInt(input.nextLine());
+		if(end<start) {
+			System.out.println("Please enter the appropriate start and end number.");
+		}
+		 else {
+			do {
+				for(int i=2;i<end;i++) {
+				range = start%2;
+				start++;
+				}
+			}while(!(range==0));
+			System.out.printf("%d\t",range);
+		}
+	}
+
+}

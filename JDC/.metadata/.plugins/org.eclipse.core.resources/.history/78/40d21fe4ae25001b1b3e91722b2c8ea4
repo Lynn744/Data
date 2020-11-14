@@ -1,0 +1,11 @@
+package jdc_revision;
+
+public class VariableScope {
+	static int digit = 1234;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int digit = 123;
+		System.out.println("Digit: "+digit);
+	}
+
+}

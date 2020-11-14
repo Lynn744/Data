@@ -1,0 +1,17 @@
+package jdc_revision;
+
+import java.util.Scanner;
+
+public class Even_odd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		int input = Integer.parseInt(sc.nextLine());
+		int num [] = new int [input];
+		
+		
+	}
+
+}
